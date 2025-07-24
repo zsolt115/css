@@ -13,7 +13,7 @@ body {
 }
 
 button.fancy-button {
-    padding: 5px;
+    padding: 0.6rem 1.2rem; /* to scale better across devices */
     border-radius: 15px;
     background-color: gold;
     color: #000000;
@@ -25,4 +25,19 @@ button.fancy-button {
 button.fancy-button:hover {
     background-color: #000000;
     color: gold;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.menu-item {
+    background-color: #534141;
+    border-radius: 15px;
+    padding: 1rem;
+    color: aliceblue;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
