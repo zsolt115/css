@@ -31,7 +31,6 @@ button.fancy-button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    
 }
 
 .menu-item {
@@ -47,4 +46,12 @@ button.fancy-button:hover {
   transform: scale(1.43);
   /*transform: translateY(-5px);*/
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:600px) {
+    .menu-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }

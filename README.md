@@ -59,4 +59,49 @@ Content is clean and readable
 
 2 columns side-by-side
 
+✅ Exercise 4: Hover Effects + Transitions
+🎯 Goal:
+Make each .menu-item interactive with subtle hover effects.
 
+When you hover over a card:
+
+It slightly lifts up (e.g., translateY or scale)
+
+A shadow appears to make it pop
+
+The animation is smooth using transition
+
+
+✅ Exercise 5: Responsive Grid with Media Queries
+🎯 Goal:
+Make your 2×2 grid layout responsive for smaller screens.
+
+Task:
+Add a media query for screens below 600px.
+
+Inside the media query:
+
+Change the grid to 1 column (grid-template-columns: 1fr)
+
+Your Instructions:
+Keep your existing .menu-grid rules as-is
+
+Add a @media block at the end of your CSS
+
+
+
+✅ Challenge 1: Mobile Header with Hamburger Menu
+🎯 Goal:
+Create a header with:
+
+A logo on the left
+
+Nav links on the right
+
+On small screens (max-width: 600px):
+
+Hide the links
+
+Show a hamburger icon
+
+(Optional: toggle the menu open on click)

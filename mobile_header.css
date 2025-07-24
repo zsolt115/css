@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .header .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
