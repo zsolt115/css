@@ -105,3 +105,17 @@ Hide the links
 Show a hamburger icon
 
 (Optional: toggle the menu open on click)
+
+🔥 Challenge 2: Pricing Cards with Grid + Hover Effects
+🎯 Goal:
+Create a 3-card layout for pricing plans.
+
+Use display: grid to make 3 columns (.pricing-grid)
+
+Style .card with:
+
+Background, padding, border-radius
+
+Hover effect: scale + shadow
+
+Smooth transition
