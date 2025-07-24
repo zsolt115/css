@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
+
+button.fancy-button {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: gold;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer; /*so it feels like a clickable button */
+    border: none; /* to remove the default outline if you want a flat look (though not critical) */
+}
+
+button.fancy-button:hover {
+    background-color: #000000;
+    color: gold;
+}
