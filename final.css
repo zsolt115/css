@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(197, 216, 219);
+}
+
+.hero h1 {
+    font-size: 4em;
+}
+
+.hero p {
+    font-size: 2em;
+}
+
+.cta-button {
+    background-color: gold;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    width: 15em;
+    height: 5em;
+    border-radius: 15px;
+}
+
+.cta-button:hover {
+    background-color: black;
+    color: gold;
+}
+
+.menu-section {
+    margin: 1.5em 1em;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.menu-item {
+    background-color: burlywood;
+    outline: 0.3em solid rgb(209, 170, 112);
+    padding: 0.75em 1.5em;
+    border-radius: 10px;
+}
+
+.menu-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section .contact-form input {
+    width: 50%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section .contact-form button {
+    background-color: gold;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    width: 15em;
+    height: 5em;
+    border-radius: 15px;
+}
+.contact-section .contact-form button:hover {
+    background-color: black;
+    color: gold;
+}
+
+section {
+  padding: 2em 1em;
+}
+
+@media (max-width: 600px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

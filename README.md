@@ -130,3 +130,44 @@ Padding + border-radius
 Focus effect on inputs (outline, box-shadow, etc.)
 
 Hover effect on the button
+
+
+
+⚡ Final Boss CSS Challenge
+CSS Requirements
+1. Header
+Flexbox layout, space between logo and nav
+
+.hamburger hidden on desktop, shown on mobile (max-width: 600px)
+
+On mobile: .nav hidden
+
+2. Hero Section
+Centered text (both horizontally and vertically inside section)
+
+Large title (h1), smaller subtitle (p)
+
+.cta-button: gold background, black text, hover invert colors, smooth transition
+
+Full viewport height (min-height: 100vh) for hero
+
+3. Menu Grid
+.menu-grid: grid with 3 columns on desktop, 1 column on mobile
+
+.menu-item: background color, padding, border-radius
+
+Hover: slight scale and shadow
+
+4. Contact Form
+Full width inputs with padding, border-radius, box-shadow
+
+Focus: aqua background + outline or shadow
+
+Button: same style as .cta-button
+
+5. General
+Reset body margin to 0
+
+Use a background color or image for hero
+
+Add some gap between sections (padding or margin)
