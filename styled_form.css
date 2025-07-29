@@ -1,0 +1,28 @@
+
+.contact-form input {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input:focus {
+    background-color: aqua;
+    outline: thick double rgb(132, 201, 228);
+}
+
+.contact-form button {
+    padding: 0.75em 1.5em;
+    border-radius: 15px;
+    background-color: gold;
+    color: black;
+    border: 0;
+    transition: background-color 0.3s, color 0.3s;;
+}
+
+.contact-form button:hover {
+    background-color: black;
+    color: gold;
+}
+

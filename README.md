@@ -119,3 +119,14 @@ Background, padding, border-radius
 Hover effect: scale + shadow
 
 Smooth transition
+
+✅ Challenge 3: Styled Form with Inputs & Focus
+Make form elements 100% width with spacing between them
+
+Add:
+
+Padding + border-radius
+
+Focus effect on inputs (outline, box-shadow, etc.)
+
+Hover effect on the button
